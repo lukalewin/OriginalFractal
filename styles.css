@@ -20,6 +20,10 @@ header {
 	
 }
 
+.instructions {
+	margin-top: 10px;	
+}
+
 .btn {
 	line-height: 50px;
 	height: 50px;
