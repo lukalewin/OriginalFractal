@@ -1,4 +1,4 @@
-int cChange = 255;
+float cChange = 255;
 float hole = 1;
 boolean mouseDragging = false, spacePressed = false;
 
@@ -12,7 +12,7 @@ public void setup()
 }
 public void draw()
 {
-  cChange++;
+  cChange+=0.3;
   if (cChange > 255) {
     cChange = 0;
   }
